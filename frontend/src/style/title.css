@@ -1,0 +1,15 @@
+.title-container {
+  display: inline-flex;
+  gap: 8px; 
+  align-items: center;
+  margin-bottom: 12px; 
+}
+
+.title-text {
+  color: #6b7280;
+}
+
+.title-highlight {
+  color: #374151; 
+  font-weight: 500; 
+}

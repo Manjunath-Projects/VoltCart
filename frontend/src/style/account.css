@@ -1,0 +1,95 @@
+.account-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 65vh;
+  padding: 3rem 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.account-card {
+  background-color: #dddddd;
+  width: 100%;
+  max-width: 550px;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 8px 24px rgba(62, 62, 62, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.account-title {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.account-info {
+  background-color: #dcc7c7;
+  width: 100%;
+  max-width: 500px;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+
+}
+
+.account-item {
+  display: flex;
+  letter-spacing: 1.5px;
+}
+
+.account-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.account-value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222;
+  font-size:larger;
+ gap: 1rem;
+}
+
+.account-info span {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  font-size: large;
+
+}
+
+.account-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* 👈 spacing between buttons */
+  margin-top: 1rem;
+}
+
+.account-wrapper button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.account-wrapper button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+

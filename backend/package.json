@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "1. cors : We can allows the frontend ip to access backend 2. dotenv : Using this we can use enviorment variables 3. express : Using this we can we can create apis 4. jsonwebtoken : Using this we can enables the user authentication so that user can login 5. mongoose : this will manage our database connectivity 6. multer : This will allows us to store our images on our coludinary storage 7. nodemon : this will restart our app when use make any changes in backend 8. razorpay : to setup the payment integration 9. stripe : to setup the payment integration 10. validator : we validate the user data coming from frontend 11. cloudinary : this is a popular cloud-based image and video management service 12. bcrypt : using this we will encrypt our user password and stored in database",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10",
+    "razorpay": "^2.9.4",
+    "stripe": "^17.7.0",
+    "validator": "^13.15.15"
+  }
+}

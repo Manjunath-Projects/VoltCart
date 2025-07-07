@@ -1,0 +1,35 @@
+.related-products {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.related-products-title {
+  text-align: center;
+  font-size: 1.875rem; 
+  padding: 0.5rem 0;
+}
+
+.related-products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  row-gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .related-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .related-products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .related-products-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

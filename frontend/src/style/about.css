@@ -1,0 +1,78 @@
+.about-page {
+  padding: 0 1rem;
+}
+
+.about-header {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 2.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    flex-direction: row;
+  }
+}
+
+.about-image {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+.about-content {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  color: #4B5563;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    width: 50%;
+  }
+}
+
+.about-subheading {
+  color: #1F2937; 
+}
+
+.about-why-header {
+  font-size: 20px;
+  padding: 1rem 0;
+}
+
+.about-why-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .about-why-section {
+    flex-direction: row;
+  }
+}
+
+.why-card {
+  border: 1px solid #ccc;
+  text-align: justify;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  color: #4B5563;
+}

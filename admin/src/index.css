@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+
+* {
+  font-family: Outfit;
+}
+select,
+input,
+textarea {
+  @apply border border-[#c2c2c2] outline-[#C586A5] rounded-md;
+}
+.active {
+  @apply bg-[#F5F5F3] border-[#A5F5DD];
+}

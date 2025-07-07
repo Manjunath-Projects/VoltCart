@@ -1,0 +1,53 @@
+.bestseller-container {
+  margin-top: -75px;
+  margin-bottom: 35px;
+}
+
+.bestseller-header {
+  text-align: center;
+  font-size: 1.875rem; 
+  padding: 2rem 0;   
+}
+
+.bestseller-description {
+  width: 75%;
+  margin: auto;
+  font-size: 0.75rem;       
+  color: #4b5563;          
+}
+
+@media (min-width: 640px) {
+  .bestseller-description {
+    font-size: 0.875rem; 
+  }
+}
+
+@media (min-width: 768px) {
+  .bestseller-description {
+    font-size: 1rem; 
+  }
+}
+
+.bestseller-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 1rem; 
+}
+
+@media (min-width: 640px) {
+  .bestseller-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .bestseller-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .bestseller-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

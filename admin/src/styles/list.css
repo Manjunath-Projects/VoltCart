@@ -1,0 +1,92 @@
+.list-wrapper {
+  width: 100%;
+}
+
+.list-title {
+  margin-bottom: 0.5rem;
+  font-size:xx-large;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.list-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-header {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .list-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #e2e8f0;
+    background-color: #f3f4f6;
+    font-size: 0.875rem;
+  }
+}
+
+/* Each Product Row */
+.list-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #e2e8f0;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .list-row {
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  }
+}
+
+.list-image {
+  width: 3rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.list-actions-title {
+  text-align: center;
+}
+
+.list-remove {
+  text-align: right;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .list-remove {
+    text-align: center;
+  }
+}
+
+.list-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.list-edit {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.list-remove {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 1.25rem;
+}
+

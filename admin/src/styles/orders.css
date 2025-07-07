@@ -1,0 +1,102 @@
+/* Orders.css */
+
+.orders-container {
+  padding: 1rem;
+}
+
+.orders-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.order-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  border: 5px outset #6c99f3d9;
+  border-right: none;
+  border-bottom-right-radius: 65px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 1.25rem;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+@media (min-width: 640px) {
+  .order-card {
+    grid-template-columns: 0.5fr 2fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .order-card {
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+  }
+}
+
+.order-icon {
+  width: 3rem;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.order-items {
+  margin-bottom: 0.5rem;
+}
+
+.order-item {
+  padding: 0.125rem 0;
+  font-size: large;
+}
+
+.order-user {
+  font-weight: 500;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.order-address p {
+  margin: 0;
+}
+
+.order-phone {
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+.order-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.order-method {
+  margin-top: 0.5rem;
+}
+
+.order-amount {
+  font-weight: bold;
+  align-self: center;
+  color: rgb(32, 198, 7);
+}
+
+.order-status {
+  padding: 0.5rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: rgb(221, 251, 255);
+  color: #111827;
+}

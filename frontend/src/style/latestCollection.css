@@ -1,0 +1,53 @@
+.latest-collection {
+  margin: 2.5rem 0;
+}
+
+.latest-collection-header {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.875rem;
+}
+
+.latest-collection-desc {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  color: #4b5563;
+  
+}
+
+@media (min-width: 640px) {
+  .latest-collection-desc {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-collection-desc {
+    font-size: 1rem;
+  }
+}
+
+.latest-products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .latest-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .latest-products-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
